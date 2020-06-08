@@ -18,7 +18,7 @@ const BottomRow = () => {
     ballToGo(toGoNow < 31 ? toGoNow +7 : toGoNow -21)
   }
 
-  const [ballOnNow, moveBall] = useState(1)
+  const [ballOnNow, moveBall] = useState(3)
   const ballPosition = () => {
     moveBall(ballOnNow < 50 ? ballOnNow + 10 : ballOnNow -10)
   }
